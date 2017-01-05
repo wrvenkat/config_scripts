@@ -6,7 +6,7 @@
   
 #### Conventions and guidelines for creating a config script####
   * The bnr script guarantees that the files and file paths for passed are aboslute and they exist (if required).
-  * The bnr script calls the config script with the following arguments and hence must consume,  
+  * The bnr script calls the config script with the following arguments and hence must expect and consume accordinlgy,  
 	1. 1st argument - the absolute file path for the file **or** `!` to indicate no file.  
 	2. 2nd argument - the value 0 for backup and 1 for restore.
   * A config script for software `foo-bar` *should* be named as `foo-bar-bnr.sh` and a corresponding entry added to the [bnr-conf](https://github.com/wrvenkat/bnr-conf) config file.
