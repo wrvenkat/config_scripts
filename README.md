@@ -17,7 +17,7 @@
   * It is strongly recommended to test the scripts on a fresh install of the Ubuntu version it is intended to work in.
   
 ## Versioning and Contributing ##
-  Stable versions are organized along the lines of Ubuntu's version number (Ex: 16.04 etc.) with corresponding dev branches. (Ex: 16.04-dev). Development and testing happens in the dev branches.
+* Stable versions are organized along the lines of Ubuntu's version number (Ex: 16.04 etc.) with corresponding dev branches. (Ex: 16.04-dev). Development and testing happens in the dev branches.
 * The master branch is the main development branch which are merged into other version specific dev branches. When a dev branch is considered stable, it is merged into the stable branch.
   
 ## LICENSE ##
