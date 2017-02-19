@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script uninstalls all old-kernels installed in a Debian/Ubuntu system, keepin only the last two kernels
+# This script uninstalls all old-kernels installed in a Debian/Ubuntu system, keepin only the *last two kernels*
 # Needs to be run as su/sudo
 
 count=$(dpkg --list | grep -e ii[[:space:]]*linux-image.* | wc -l)
